@@ -18,6 +18,10 @@ To verify Ruby is installed:
 
 ```bash ruby -v ```
 
+## How to Run
+Navigate to Pronto/ProntoRuby folder, and run the following command in your terminal:
+```ruby Program.rb board.json rolls_1.json --json```
+
 ## Design Decisions
 - I used object-oriented programming and created Player and Property classes.
 - Broke down the business flow into separate functions such as dice-roll, move, pay rent, and make a purchase.

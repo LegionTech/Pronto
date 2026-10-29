@@ -1,7 +1,3 @@
-## How to Run
-Navigate to Pronto/ProntoRuby folder, and run the following command in your terminal:
-```ruby Program.rb board.json rolls_1.json --json```
-
 ## Which tools you used, and what you used each one for
 GitHub Copilot: 
 - Initial code generation for reference and inspiration.
