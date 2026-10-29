@@ -12,6 +12,6 @@ class Player
     @id = attributes["id"] || attributes[:id] || self.class.next_id
     @name = attributes["name"] || attributes[:name]
     @money = 16
-    @position = 0
+    @position = 1
   end
 end
