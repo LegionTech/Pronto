@@ -10,10 +10,10 @@ List<int> _rolls2 = new List<int>();
 int _boundary = 0, _playerSize = 0;
 bool _IsRun = true;
 
-LoadJsonFile("players.json", out _players);
-LoadJsonFile("board.json", out _properties);
-LoadJsonFile("rolls_1.json", out _rolls1);
-LoadJsonFile("rolls_2.json", out _rolls2);
+LoadJsonFile("Data/players.json", out _players);
+LoadJsonFile("Data/board.json", out _properties);
+LoadJsonFile("Data/rolls_1.json", out _rolls1);
+LoadJsonFile("Data/rolls_2.json", out _rolls2);
 
 _boundary = _properties.Count;
 _playerSize = _players.Count;
