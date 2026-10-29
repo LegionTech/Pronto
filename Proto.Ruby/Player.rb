@@ -11,7 +11,7 @@ class Player
   def initialize(attributes = {})
     @id = attributes["id"] || attributes[:id] || self.class.next_id
     @name = attributes["name"] || attributes[:name]
-    @money = attributes["money"] || attributes[:money] || 16
-    @position = attributes["position"] || attributes[:position] || 0
+    @money = 16
+    @position = 0
   end
 end

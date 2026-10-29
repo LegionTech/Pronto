@@ -71,7 +71,7 @@ def purchase_property(players, properties, player_id, property_id)
   player.money -= property.price
   property.owner_id = player.id
 
-  puts "#{player.name} purchased #{property.name} for $#{property.price}. Remaining money: $#{player.money}"
+  puts "#{player.name} purchased #{property.name} for $#{property.price}. Remaining: $#{player.money}"
 
   check_property_owner(properties, property.color, player.id, player.name)
 end
